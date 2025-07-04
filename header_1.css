@@ -1,0 +1,53 @@
+.div_1{
+    height: 150px;
+    margin-top: -37px;
+}
+.navbar_1 a{
+    text-decoration: none;
+    padding: 10px;
+    color: #222;
+    font-size: 17px;
+    font-weight: 500;
+    margin: 0 20px;
+}
+.navbar_1 a:hover{
+    color: #1743e3;
+}
+.div_2{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+}
+.SigninBox {
+    
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #1743e3;
+
+}
+
+.signUp_Box{
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #1743e3;
+
+}
+
+
+@media(max-width:700px){
+
+    .navbar_1 a{
+        text-decoration: none;
+        padding: 10px;
+        color: #222;
+        font-size: 15px;
+        font-weight: 500;
+        margin: 0 20px;
+    }
+    .navbar_1 a:hover{
+        color: #1743e3;
+    }
+}
